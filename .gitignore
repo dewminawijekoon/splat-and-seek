@@ -1,0 +1,30 @@
+# Python / uv
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# Simulation and synthesis output
+build/
+*.ghw
+*.vcd
+
+# Third-party Excalidraw skill (coleam00/excalidraw-diagram-skill): no licence file, so it is
+# not redistributed here. Clone it into this path to render diagrams locally; pin
+# @excalidraw/excalidraw@0.18.0 in references/render_template.html (the unpinned import 404s).
+.claude/skills/excalidraw-diagram/
+
+# Robot photo with unclear image rights (contest rules §8); replace with our own photo
+Pasted image.png
+
+# Proposal working text (portal copy); kept local, the master is splat_and_seek.excalidraw
+docs/proposal/proposal.md
+
+# PDF exports of the master (regenerated from splat_and_seek.excalidraw)
+docs/proposal/*.pdf
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
